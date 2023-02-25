@@ -1,0 +1,137 @@
+:root {
+    --blue: #51acc5;
+    --accentBlue: #c9f1fd;
+    --techTopBuffer: 58vh;
+    --techSideBuffer: 65vw;
+    --sideBuffer: 15vw;
+}
+
+
+body {
+    background-color: #36393f;
+}
+
+img {
+    position: absolute;
+    height: 30vh;
+    top: 17vh;
+    right: var(--sideBuffer);
+}
+
+h1 {
+    color: var(--blue);
+    position: absolute;
+    font-size: 8vh;
+    top: 2vh;
+    left: var(--sideBuffer);
+}
+
+button {
+    width: 10vw;
+    font-size: 3vh;
+    padding: 1vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    color: var(--accentBlue);
+    background-color: var(--blue);
+    border: 2px solid black
+}
+
+.git {
+    position: absolute;
+    right: var(--sideBuffer);
+    top: 5vh;
+}
+
+.linked {
+    position: absolute;
+    right: 26vw;
+    top: 5vh;    
+}
+
+.aboutMe {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 17vh;
+    left: var(--sideBuffer);
+    font-size: 4vh;
+}
+
+.aboutMeP {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 25vh;
+    left: var(--sideBuffer);
+    max-width: 40vw;
+    font-size: 2vh;
+}
+
+.projects {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 50vh;
+    left: var(--sideBuffer);
+    font-size: 4vh;
+    border-top: 4px solid white;
+    padding-right: 62vw; 
+    padding-top: 2vh;
+}
+
+.projectsP {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 59vh;
+    left: var(--sideBuffer);
+    max-width: 40vw;
+    font-size: 2vh;
+}
+
+.QRHunt {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 65vh;
+    font-size: 3vh;
+    left: 20vw;
+    border: 2px solid var(--accentBlue);
+    padding-top: 2vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 15vh;
+}
+
+.QRHuntP {
+    color: var(--accentBlue);
+    position: absolute;
+    top: 72vh;
+    font-size: 2vh;
+    left: 21vw;
+    max-width: 26vw;
+}
+
+.tech {
+    color: var(--accentBlue);
+    position: absolute;
+    left: 63vw;
+    top: 51vh;
+    font-size: 3vh;
+    border-left: 2px solid white;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    padding-bottom: 40vh;   
+}
+
+.lang, .database, .vers {
+    position: relative;
+    color: var(--accentBlue); 
+    top: var(--techTopBuffer);
+    left: var(--techSideBuffer);
+    font-size: 2vh;
+}
+
+.langP, .databaseP, .versP {
+    position: relative;
+    color: var(--accentBlue); 
+    top: var(--techTopBuffer);
+    left: var(--techSideBuffer);
+    font-size: 1.5vh;
+}
