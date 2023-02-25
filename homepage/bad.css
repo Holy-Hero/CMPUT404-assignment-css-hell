@@ -1,0 +1,51 @@
+body {
+    background-image: url("https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3 {
+    color: white;
+    max-width: 55%;
+    border: 3px dotted orange
+}
+
+h1, h3 {
+    color: red
+}
+
+h2 {
+    color: aqua
+}
+
+p {
+    color: lime;
+    max-width: 53%;
+    
+}
+
+div {
+    color: yellow 
+}
+
+img {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    width: 40%;
+    border: 3px solid purple;
+}
+
+.git {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 20%;
+}
+
+.linked {
+    position: absolute;
+    right: calc(20% + 20px);
+    top: 20px;
+    width: 20%;
+}
